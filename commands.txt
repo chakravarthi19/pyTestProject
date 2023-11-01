@@ -1,0 +1,8 @@
+pytest -v -s -k testCases --html=reports/reports_01_11_23_suite.html
+
+pytest -v -s -k "regression" testCases --html=reports/reports_01_11_23_regression.html
+
+pytest -v -s -k "sanity" testCases --html=reports/reports_01_11_23_sanity.html
+
+pytest -v -s -k "smoke" testCases --html=reports/reports_01_11_23_smoke.html
+
